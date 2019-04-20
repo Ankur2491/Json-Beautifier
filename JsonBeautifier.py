@@ -33,6 +33,8 @@ btn2 = ttk.Button(window, text="Clear Input", command=clearInput)
 btn2.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 btn3 = ttk.Button(window, text="Clear Output", command=clearOutput)
 btn3.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
+lbl = Label(window, text="Developed by Ankur Sharma (April 2019)")
+lbl.pack()
 opt = scrolledtext.ScrolledText(
 master=frame1,
 wrap=tk.WORD,
